@@ -1,0 +1,50 @@
+body {
+    background-color: #C9C5BA;
+    font-family: roboto;
+}
+
+h1.title {
+    text-align : center;
+    font-size: 50px;
+}
+
+h2.title{
+    text-align: center;
+    font-synthesis: 20px;
+}
+
+div.main {
+    margin-top: 70px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.block {
+    padding-top: 10px;
+}
+
+img.round {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 700px) {
+    img.round {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.social a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
